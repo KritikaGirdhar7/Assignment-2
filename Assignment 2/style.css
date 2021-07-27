@@ -1,0 +1,27 @@
+div
+{font-size: 30px;
+background-color:gray;
+border: 2px solid black;
+padding:5px;
+position: sticky;
+top: 30px;
+
+}
+
+h1
+{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    color: white;
+}
+p::before
+{
+    content:"\1F4DE";
+}
+
+p{
+   background-color:rgb(250, 250, 74);
+   font-size: medium;
+}
